@@ -1,0 +1,27 @@
+<!-- public/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>E-Commerce Products</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f9f9f9; padding: 2rem; }
+    h1 { text-align: center; }
+    .product {
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      padding: 1rem;
+      margin-bottom: 1rem;
+    }
+    .price { font-weight: bold; }
+  </style>
+</head>
+<body>
+  <h1>🛍️ Product Catalog</h1>
+  <div id="product-list"></div>
+
+  <script type="module" src="./dist/ui.js"></script>
+</body>
+</html>
